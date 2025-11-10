@@ -1,0 +1,21 @@
+<Reservation xmlns="http://example.com/pnr">
+    <PNR_Summary Locator="ABCDEF"/>
+    <Travelers>
+        <Passenger id="1" LastName="JONES" FirstName="ALAN" PaxType="ADT"/>
+        <Passenger id="2" LastName="DORIS" FirstName="DORIS" PaxType="ADT"/>
+    </Travelers>
+    <Itinerary>
+        <AirSegment id="S1" Carrier="DL" FlightNumber="742" Class="Y" 
+                    DepartureDate="2025-10-15" Origin="ATL" Destination="BOS" 
+                    Status="HK" Seats="2"/>
+    </Itinerary>
+    <Contacts>
+        <Phone Number="5551234" AreaCode="214" Type="B"/>
+        <Email Address="alan.jones@corp.com" Type="B"/>
+    </Contacts>
+    <AdminData>
+        <ReceivedFrom Name="LINDA"/>
+        <Ticketing Deadline="2025-09-17" Type="TAU"/>
+        <FormOfPayment Type="CC" Code="AX" Number="1234567890123456" Expiration="05/26"/>
+    </AdminData>
+</Reservation>
